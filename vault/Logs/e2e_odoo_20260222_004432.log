@@ -1,0 +1,57 @@
+[00:44:32] ==============================================================
+[00:44:32] Odoo E2E Integration Test — LIVE MODE
+[00:44:32] URL: http://localhost:8069 | DB: ai_employee
+[00:44:32] Date: 2026-02-22 00:44:32 UTC
+[00:44:32] ==============================================================
+[00:44:32] 
+[00:44:32] STEP 1: Authentication
+[00:44:33]   PASS  Authenticated — uid=2
+[00:44:33] 
+[00:44:33] STEP 2: list_customers — baseline before create
+[00:44:33]   PASS  1 existing customer(s)
+[00:44:33]         [7] Test Client Alpha  alpha@test.com
+[00:44:33] 
+[00:44:33] STEP 3: create_customer — "Test Client Alpha" <alpha@test.com>
+[00:44:33]   PASS  ALREADY_EXISTS — Odoo partner ID: 7
+[00:44:33] 
+[00:44:33] STEP 4: list_customers — verify "Test Client Alpha" appears
+[00:44:33]   PASS  Customer visible in Odoo — ID=7
+[00:44:33]         [7] Test Client Alpha  alpha@test.com
+[00:44:33] 
+[00:44:33] STEP 5a: Write invoice approval file -> Pending_Approval/
+[00:44:33]   PASS  Draft created: Pending_Approval/ODOO_INVOICE_2026-02-22_E2E.md
+[00:44:33] 
+[00:44:33] STEP 5b: Move approval file to Approved/ (human approval simulation)
+[00:44:33]   PASS  Moved to Approved/ODOO_INVOICE_2026-02-22_E2E.md
+[00:44:33] 
+[00:44:33] STEP 5c: create_invoice — Consulting Services x10 @ $100 (HITL)
+[00:44:33]   INFO  Approval found: ODOO_INVOICE_2026-02-22_E2E.md
+[00:44:38]   PASS  Invoice created — Odoo ID: 1, Ref: INV/2026/00001
+[00:44:38]   PASS  Approval consumed -> Done/ODOO_INVOICE_2026-02-22_E2E.md
+[00:44:38] 
+[00:44:38] STEP 6: list_invoices — verify new invoice visible
+[00:44:38]   PASS  1 posted invoice(s)
+[00:44:38]         [1] INV/2026/00001 | Test Client Alpha | $1000.00 | not_paid <<<< NEW
+[00:44:38] 
+[00:44:38] STEP 7: get_account_balance — 1121001 Receivable from Customers (id=13)
+[00:44:38]   PASS  [1121001] Receivable from Customers
+[00:44:38]         Balance:  $1,000.00 USD
+[00:44:38]         Debit:    $1,000.00
+[00:44:38]         Credit:   $0.00
+[00:44:38] 
+[00:44:38] STEP 7b: get_account_balance — Bank account (journal id=6 -> find account)
+[00:44:38]   PASS  [1126001] Bank
+[00:44:38]         Balance:  $0.00 USD
+[00:44:38]         Debit:    $0.00
+[00:44:38]         Credit:   $0.00
+[00:44:38] 
+[00:44:38] STEP 8: list_transactions — last 30 days, receivable account
+[00:44:39]   PASS  1 journal entry lines on receivable account
+[00:44:39]         2026-02-22 | INV/2026/00001       | DR $1000.00
+[00:44:39] 
+[00:44:39] ==============================================================
+[00:44:39] E2E TEST COMPLETE — LIVE MODE (DEV_MODE=false)
+[00:44:39]   Invoice created: ID=1, Ref=INV/2026/00001
+[00:44:39]   Customer created: ID=7, Name=Test Client Alpha
+[00:44:39]   DEV_MODE remains false — set it back in .env if needed
+[00:44:39] ==============================================================

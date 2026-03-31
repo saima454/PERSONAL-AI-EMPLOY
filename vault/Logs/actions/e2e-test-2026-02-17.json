@@ -1,0 +1,128 @@
+[
+  {
+    "timestamp": "2026-02-17T13:19:34Z",
+    "test": "authentication",
+    "status": "pass",
+    "details": "Gmail API authenticated successfully (24ms)",
+    "duration_ms": 24
+  },
+  {
+    "timestamp": "2026-02-17T13:19:36Z",
+    "test": "search_email",
+    "status": "pass",
+    "details": "Found 3 email(s) in 1987ms",
+    "duration_ms": 1987
+  },
+  {
+    "timestamp": "2026-02-17T13:19:36Z",
+    "test": "rate_limiter",
+    "status": "pass",
+    "details": "Allowed: True, Current count: 0/10, Window: 3600s",
+    "duration_ms": 0
+  },
+  {
+    "timestamp": "2026-02-17T13:19:39Z",
+    "test": "draft_email_dev_mode",
+    "status": "pass",
+    "details": "[DEV_MODE] Draft logged but not created. To: t***@gmail.com, Subject: MCP Server Test",
+    "duration_ms": 2502
+  },
+  {
+    "timestamp": "2026-02-17T13:19:39Z",
+    "test": "create_approval",
+    "status": "pass",
+    "details": "Approval file created at vault\\Approved\\e2e-test-send-email.md",
+    "duration_ms": 0
+  },
+  {
+    "timestamp": "2026-02-17T13:19:39Z",
+    "test": "find_approval",
+    "status": "pass",
+    "details": "Approval file found and validated: vault\\Approved\\e2e-test-send-email.md",
+    "duration_ms": 0
+  },
+  {
+    "timestamp": "2026-02-17T13:19:39Z",
+    "test": "send_email_dev_mode",
+    "status": "pass",
+    "details": "[DEV_MODE] Send logged but not executed. To: t***@gmail.com, Subject: MCP Server Test - Live Send",
+    "duration_ms": 0
+  },
+  {
+    "timestamp": "2026-02-17T13:19:39Z",
+    "test": "mcp_search_email",
+    "status": "pass",
+    "details": "search_email returned formatted results (12ms)",
+    "duration_ms": 12
+  },
+  {
+    "timestamp": "2026-02-17T13:19:39Z",
+    "test": "mcp_draft_email",
+    "status": "pass",
+    "details": "draft_email: [DEV_MODE] Draft logged but not created. To: t***@gmail.com, Subject: Test Draft (0ms)",
+    "duration_ms": 0
+  },
+  {
+    "timestamp": "2026-02-17T13:19:39Z",
+    "test": "mcp_send_email",
+    "status": "pass",
+    "details": "send_email: [DEV_MODE] Send logged but not executed. To: t***@gmail.com, Subject: Test Send (0ms)",
+    "duration_ms": 0
+  },
+  {
+    "timestamp": "2026-02-17T13:19:39Z",
+    "test": "mcp_reply_email",
+    "status": "pass",
+    "details": "reply_email: [DEV_MODE] Reply logged but not executed. Thread: thread_123, Body length: 10 ch (0ms)",
+    "duration_ms": 0
+  },
+  {
+    "timestamp": "2026-02-17T13:20:43Z",
+    "test": "authentication",
+    "status": "pass",
+    "details": "Gmail API authenticated successfully (24ms)",
+    "duration_ms": 24
+  },
+  {
+    "timestamp": "2026-02-17T13:20:45Z",
+    "test": "search_email",
+    "status": "pass",
+    "details": "Found 3 email(s) in 1874ms",
+    "duration_ms": 1874
+  },
+  {
+    "timestamp": "2026-02-17T13:20:45Z",
+    "test": "rate_limiter",
+    "status": "pass",
+    "details": "Allowed: True, Current count: 0/10, Window: 3600s",
+    "duration_ms": 0
+  },
+  {
+    "timestamp": "2026-02-17T13:20:45Z",
+    "test": "draft_email_live",
+    "status": "pass",
+    "details": "Draft created! Draft ID: r2934540694987588362, Message ID: 19c6bc2a6e123f5d (401ms)",
+    "duration_ms": 401
+  },
+  {
+    "timestamp": "2026-02-17T13:20:45Z",
+    "test": "create_approval",
+    "status": "pass",
+    "details": "Approval file created at vault\\Approved\\e2e-test-send-email.md",
+    "duration_ms": 0
+  },
+  {
+    "timestamp": "2026-02-17T13:20:45Z",
+    "test": "find_approval",
+    "status": "pass",
+    "details": "Approval file found and validated: vault\\Approved\\e2e-test-send-email.md",
+    "duration_ms": 0
+  },
+  {
+    "timestamp": "2026-02-17T13:20:45Z",
+    "test": "send_email_live",
+    "status": "pass",
+    "details": "Email sent! Message ID: 19c6bc2a8a918e3d, Thread ID: 19c6bc2a8a918e3d (357ms)",
+    "duration_ms": 357
+  }
+]

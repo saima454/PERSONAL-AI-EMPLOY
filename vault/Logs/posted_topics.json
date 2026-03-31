@@ -1,0 +1,100 @@
+{
+  "entries": [
+    {
+      "date": "2026-02-20",
+      "topic_index": 0,
+      "topic_title": "AI and Automation",
+      "template_id": "ai_auto_insight_01",
+      "draft_path": "vault\\Pending_Approval\\LINKEDIN_POST_2026-02-20.md",
+      "generated_at": "2026-02-20T03:21:19+05:00"
+    },
+    {
+      "date": "2026-02-21",
+      "topic_index": 1,
+      "topic_title": "My Topic",
+      "template_id": "ai_auto_tip_01",
+      "draft_path": "vault\\Pending_Approval\\FACEBOOK_POST_2026-02-21.md",
+      "generated_at": "2026-02-21T02:52:54+05:00"
+    },
+    {
+      "date": "2026-02-21",
+      "topic_index": 2,
+      "topic_title": "Hackathon Journey",
+      "template_id": "hackathon_announce_01",
+      "draft_path": "vault\\Pending_Approval\\LINKEDIN_POST_2026-02-21.md",
+      "generated_at": "2026-02-21T02:53:41+05:00"
+    },
+    {
+      "date": "2026-02-21",
+      "topic_index": 3,
+      "topic_title": "Cloud & DevOps",
+      "template_id": "devops_question_01",
+      "draft_path": "vault\\Pending_Approval\\LINKEDIN_POST_2026-02-21.md",
+      "generated_at": "2026-02-21T18:35:05+05:00"
+    },
+    {
+      "date": "2026-02-26",
+      "topic_index": 4,
+      "topic_title": "Career Tips",
+      "template_id": "career_announce_01",
+      "draft_path": "vault\\Pending_Approval\\LINKEDIN_POST_2026-02-26.md",
+      "generated_at": "2026-02-26T22:53:37+05:00"
+    },
+    {
+      "date": "2026-02-27",
+      "topic_index": 5,
+      "topic_title": "AI and Automation",
+      "template_id": "twitter_ai_01",
+      "draft_path": "vault\\Pending_Approval\\TWITTER_POST_2026-02-27.md",
+      "generated_at": "2026-02-27T07:38:05+05:00"
+    },
+    {
+      "date": "2026-02-28",
+      "topic_index": 0,
+      "topic_title": "AI and Automation",
+      "template_id": "ai_auto_announce_01",
+      "draft_path": "vault\\Pending_Approval\\LINKEDIN_POST_2026-02-28.md",
+      "generated_at": "2026-02-28T04:45:23+05:00"
+    },
+    {
+      "date": "2026-03-01",
+      "topic_index": 1,
+      "topic_title": "Backend Development",
+      "template_id": "backend_story_01",
+      "draft_path": "vault\\Pending_Approval\\LINKEDIN_POST_2026-03-01.md",
+      "generated_at": "2026-03-01T19:41:32+05:00"
+    },
+    {
+      "date": "2026-03-03",
+      "topic_index": 2,
+      "topic_title": "Hackathon Journey",
+      "template_id": "hackathon_announce_01",
+      "draft_path": "vault\\Pending_Approval\\LINKEDIN_POST_2026-03-03.md",
+      "generated_at": "2026-03-03T17:16:53+05:00"
+    },
+    {
+      "date": "2026-03-04",
+      "topic_index": 3,
+      "topic_title": "Cloud & DevOps",
+      "template_id": "devops_insight_01",
+      "draft_path": "vault\\Pending_Approval\\LINKEDIN_POST_2026-03-04.md",
+      "generated_at": "2026-03-04T03:24:48+05:00"
+    },
+    {
+      "date": "2026-03-31",
+      "topic_index": 4,
+      "topic_title": "Career Tips",
+      "template_id": "career_question_01",
+      "draft_path": "vault\\Pending_Approval\\LINKEDIN_POST_2026-03-31.md",
+      "generated_at": "2026-03-31T01:36:37+05:00"
+    },
+    {
+      "date": "2026-04-01",
+      "topic_index": 5,
+      "topic_title": "AI and Automation",
+      "template_id": "ai_auto_tip_01",
+      "draft_path": "vault\\Pending_Approval\\TWITTER_POST_2026-04-01.md",
+      "generated_at": "2026-04-01T02:17:26+05:00"
+    }
+  ]
+}

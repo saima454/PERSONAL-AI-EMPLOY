@@ -1,0 +1,225 @@
+{
+  "date": "2026-03-01",
+  "entries": [
+    {
+      "timestamp": "2026-03-01T14:41:32Z",
+      "correlation_id": "4f763623-7bab-4b14-b784-760c15bab6ec",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-01T14:41:32Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_skipped",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Briefing not due (wrong day, early time, or already generated today)"
+    },
+    {
+      "timestamp": "2026-03-01T14:41:40Z",
+      "correlation_id": "3fd480cc-2299-47e0-bbdf-7ce04457d8b5",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-please-update-your-plus-payment-method-20260301T144140.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19ca5256bbea2b2c",
+        "subject": "Please update your Plus payment method",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-01T14:42:42Z",
+      "correlation_id": "11cabee0-b33b-466d-8817-db22380eb1d3",
+      "actor": "facebook_watcher",
+      "action_type": "facebook_processed",
+      "target": "FACEBOOK_nazia-naz_20260301T144242.md",
+      "result": "success",
+      "parameters": {
+        "item_type": "message",
+        "sender": "Nazia Naz",
+        "priority": "high",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-01T14:42:42Z",
+      "correlation_id": "0b83051e-7c7b-4715-9d1f-e25118a84b92",
+      "actor": "facebook_watcher",
+      "action_type": "facebook_processed",
+      "target": "FACEBOOK_nimra-naz_20260301T144242.md",
+      "result": "success",
+      "parameters": {
+        "item_type": "message",
+        "sender": "Nimra Naz",
+        "priority": "high",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-01T14:43:15Z",
+      "correlation_id": "40bf497f-a40e-4132-b7b2-fc2b384ec440",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "WhatsApp",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"div[data-testid=\\\"chat-list\\\"], div[aria-label=\\\"Chat list\\\"], #pane-side, div[role=\\\"listitem\\\"], div[role=\\\"row\\\""
+      }
+    },
+    {
+      "timestamp": "2026-03-01T14:43:15Z",
+      "correlation_id": "75d1b9d7-b919-4ccd-9440-4c9062be1a63",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Restart 1/3, backoff 2s"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T14:43:29Z",
+      "correlation_id": "f75148de-5575-4d94-b9e3-652d9137f677",
+      "actor": "linkedin_watcher",
+      "action_type": "linkedin_processed",
+      "target": "LINKEDIN_nimra-naz_20260301T144329.md",
+      "result": "success",
+      "parameters": {
+        "item_type": "message",
+        "sender": "Nimra Naz",
+        "priority": "medium",
+        "matched_keyword": "meeting",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-01T14:45:56Z",
+      "correlation_id": "b5b74754-4312-4ca1-9f8b-2ef8cbf4cd29",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Gmail",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T14:45:56Z",
+      "correlation_id": "a7bf6b53-06f7-41ad-9f0a-10286488a08e",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "VaultAction",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T14:45:56Z",
+      "correlation_id": "e3a465f0-ae61-4ed9-a1af-51444f7b2f3a",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T14:45:56Z",
+      "correlation_id": "6e9d6f7a-79b2-4eec-a0f8-234d26b0fd58",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T14:45:56Z",
+      "correlation_id": "bf7503b1-cbeb-44c8-8d5d-e3c4242de51f",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T14:45:56Z",
+      "correlation_id": "a4a148fd-61b8-4e47-b4b7-b2dcf0e96f5f",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T14:45:56Z",
+      "correlation_id": "8bf909d7-6506-47dc-a6b1-e757d6e768db",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Twitter",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T14:45:56Z",
+      "correlation_id": "03b9eb53-5aa4-4b4d-8b95-7c9b9914e7fa",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_stop",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "Graceful shutdown",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-01T14:48:42Z",
+      "correlation_id": "58f58468-2101-4833-98eb-f1e1b8dc0d22",
+      "actor": "facebook_replier",
+      "action_type": "facebook_reply",
+      "target": "Nazia Naz",
+      "result": "success",
+      "parameters": {
+        "sender": "Nazia Naz",
+        "preview": "it is taha, what is urgent"
+      }
+    }
+  ]
+}

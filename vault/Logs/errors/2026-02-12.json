@@ -1,0 +1,96 @@
+{
+  "date": "2026-02-12",
+  "entries": [
+    {
+      "timestamp": "2026-02-12T03:19:13Z",
+      "correlation_id": "570d4ad0-318f-46d4-bd0c-fcff81d16fec",
+      "actor": "linkedin_watcher",
+      "action_type": "error",
+      "target": "linkedin",
+      "error": "session_expired",
+      "details": {
+        "consecutive_errors": 0,
+        "dev_mode": true
+      },
+      "result": "failure"
+    },
+    {
+      "timestamp": "2026-02-12T03:19:39Z",
+      "correlation_id": "08242c03-e139-4db6-85e3-299be9f5a344",
+      "actor": "linkedin_watcher",
+      "action_type": "error",
+      "target": "linkedin",
+      "error": "session_expired",
+      "details": {
+        "consecutive_errors": 0,
+        "dev_mode": true
+      },
+      "result": "failure"
+    },
+    {
+      "timestamp": "2026-02-12T20:44:28Z",
+      "correlation_id": "0b3e2836-d4dd-42d0-8c45-74f9e3ffe7b3",
+      "actor": "linkedin_watcher",
+      "action_type": "error",
+      "target": "linkedin",
+      "error": "session_expired",
+      "details": {
+        "consecutive_errors": 0,
+        "dev_mode": true
+      },
+      "result": "failure"
+    },
+    {
+      "timestamp": "2026-02-12T20:50:12Z",
+      "correlation_id": "3df0f3b3-1f32-45d6-b8b0-7b0088a5304f",
+      "actor": "linkedin_watcher",
+      "action_type": "error",
+      "target": "linkedin",
+      "error": "scan_failed",
+      "details": {
+        "consecutive_errors": 1,
+        "dev_mode": true
+      },
+      "result": "failure"
+    },
+    {
+      "timestamp": "2026-02-12T21:16:01Z",
+      "correlation_id": "46a298df-8622-4270-beff-bb5b82e5a576",
+      "actor": "linkedin_watcher",
+      "action_type": "error",
+      "target": "linkedin",
+      "error": "scan_failed",
+      "details": {
+        "consecutive_errors": 1,
+        "dev_mode": true
+      },
+      "result": "failure"
+    },
+    {
+      "timestamp": "2026-02-12T21:26:36Z",
+      "correlation_id": "bceba44d-4a9f-43de-b080-0ab793bfaa7c",
+      "actor": "linkedin_watcher",
+      "action_type": "error",
+      "target": "linkedin",
+      "error": "session_captcha",
+      "details": {
+        "consecutive_errors": 0,
+        "dev_mode": true
+      },
+      "result": "failure"
+    },
+    {
+      "timestamp": "2026-02-12T21:27:03Z",
+      "correlation_id": "f2e3c936-7c95-43a5-8392-862643a3d452",
+      "actor": "linkedin_watcher",
+      "action_type": "error",
+      "target": "linkedin",
+      "error": "session_captcha",
+      "details": {
+        "consecutive_errors": 0,
+        "dev_mode": true
+      },
+      "result": "failure"
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "date": "2026-03-30",
+  "entries": [
+    {
+      "timestamp": "2026-03-30T20:36:36Z",
+      "correlation_id": "9cb3b065-0f22-4ee9-905b-fcf927f3f792",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:36:37Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_skipped",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Briefing not due (wrong day, early time, or already generated today)"
+    },
+    {
+      "timestamp": "2026-03-30T20:36:51Z",
+      "correlation_id": "65dd2f6b-6c57-4452-b7d2-0f598a49e1be",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-hey-there-saima-see-how-photo-editor-has-changed-20260330T203651.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19d3dab3379c36e1",
+        "subject": "Hey there Saima! See how photo editor has changed.",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:36:51Z",
+      "correlation_id": "5ec369f6-fdf1-4b97-85f5-39e6f9b76efa",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-security-alert-20260330T203651.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19d3b2cb565356d1",
+        "subject": "Security alert",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:36:51Z",
+      "correlation_id": "84157050-2e35-4f29-a491-ae65baf8f32a",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-ayesha624883-catch-up-on-moments-that-you-ve-misse-20260330T203651.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19d3ad0b70ad7d57",
+        "subject": "ayesha624883, catch up on moments that you've missed",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:36:51Z",
+      "correlation_id": "8ae7490a-e0e6-4c3e-9b19-0b039bb6da03",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-karan-singh-recently-posted-a-new-photo-20260330T203651.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19d3a8daf3218d68",
+        "subject": "📷 Karan Singh recently posted a new photo",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:36:51Z",
+      "correlation_id": "8a3248d8-dd33-4a53-9f93-67de43d659f1",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-patsy-wade-recently-posted-a-new-photo-20260330T203651.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19d375d70eb05ea2",
+        "subject": "📷 Patsy Wade recently posted a new photo",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:36:51Z",
+      "correlation_id": "b4ba1522-5f8d-4176-9280-654a2912d90b",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-patsy-wade-recently-posted-a-new-photo-20260330T203651.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19d356edbbed5bc6",
+        "subject": "📷 Patsy Wade recently posted a new photo",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:36:51Z",
+      "correlation_id": "0b049d8e-622b-4252-a181-e47907bfdc08",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-saima-ameen-alam-has-a-new-post-out-now-20260330T203651.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19d34f44228d2dcd",
+        "subject": "Saima, Ameen Alam has a new post out now",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:36:51Z",
+      "correlation_id": "659ad91c-b86b-4a34-a0f3-bf96b5f90caa",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-you-have-121-notifications-about-sukhveer-and-othe-20260330T203651.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19d3218f57865908",
+        "subject": "You have 121 notifications about Sukhveer and others",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:36:51Z",
+      "correlation_id": "1e19c5c7-8c16-473d-82da-88ce5f8205b3",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-nvidia-s-open-salvo-openai-s-amazon-deal-grok-cuts-20260330T203651.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19d30b40d21317e8",
+        "subject": "Nvidia's Open Salvo, OpenAI's Amazon Deal, Grok Cuts Video Prices, Recursive Language Models",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:36:51Z",
+      "correlation_id": "424c6e6c-2a05-4afd-a051-0bd9c3044e2a",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-learn-how-to-build-your-own-apps-with-claude-code-20260330T203651.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19d30356568d041a",
+        "subject": "Learn how to build your own apps with Claude Code [Free 12-hour course]",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:37:46Z",
+      "correlation_id": "4b9603c6-dfcb-4bf6-9aa2-152638c1d492",
+      "actor": "linkedin_watcher",
+      "action_type": "linkedin_processed",
+      "target": "LINKEDIN_melissa-torres_20260330T203746.md",
+      "result": "success",
+      "parameters": {
+        "item_type": "message",
+        "sender": "Melissa Torres",
+        "priority": "medium",
+        "matched_keyword": "job",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:37:47Z",
+      "correlation_id": "f0ab3d1f-b62c-41ac-a5e2-08301ea36f30",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "WhatsApp",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"div[data-testid=\\\"chat-list\\\"], div[aria-label=\\\"Chat list\\\"], #pane-side, div[role=\\\"listitem\\\"], div[role=\\\"row\\\""
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:37:47Z",
+      "correlation_id": "a6d1d2ae-f4d9-4848-8de0-35822d26e610",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Restart 1/3, backoff 2s"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:38:51Z",
+      "correlation_id": "ef0e1e6c-5dec-4dd7-bea0-a6cdb8b6e1a6",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "WhatsApp",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"div[data-testid=\\\"chat-list\\\"], div[aria-label=\\\"Chat list\\\"], #pane-side, div[role=\\\"listitem\\\"], div[role=\\\"row\\\""
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:38:51Z",
+      "correlation_id": "d303954e-b2c4-4b9d-923a-063443799fca",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Restart 2/3, backoff 4s"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:39:16Z",
+      "correlation_id": "a55d6ee5-c3a0-40d0-9c18-b5194e238551",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Gmail",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:39:16Z",
+      "correlation_id": "25566aa9-f086-476c-a2c6-6bde30d6516d",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "VaultAction",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:39:16Z",
+      "correlation_id": "83b95f1e-9175-4cd5-8800-98ddc07e8829",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:39:16Z",
+      "correlation_id": "70071850-92fd-4f04-a39b-c57b06af1af7",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:39:16Z",
+      "correlation_id": "dd342907-b6ce-4b6a-a2ce-cb7e295ff781",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:39:16Z",
+      "correlation_id": "fd6661e3-80ed-4f6c-815c-a5482a7fd6cd",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:39:16Z",
+      "correlation_id": "80274c38-d24b-4591-a35c-fadcb7e0b175",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Twitter",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:39:16Z",
+      "correlation_id": "201a0980-ba67-4cdd-88c9-788a3e981acb",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_stop",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "Graceful shutdown",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:55:26Z",
+      "correlation_id": "ac67c703-74ba-4de4-ae74-e3e59662d1d4",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:55:26Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_skipped",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Briefing not due (wrong day, early time, or already generated today)"
+    },
+    {
+      "timestamp": "2026-03-30T20:55:49Z",
+      "correlation_id": "0da23fff-c5cb-4e9a-bcbf-b17d9b616d91",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-20.md",
+      "result": "failure",
+      "parameters": {
+        "details": "LinkedInPoster processed 0 posts for LINKEDIN_POST_2026-02-20.md — check session state or post content",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:56:33Z",
+      "correlation_id": "2e178c7d-cf7f-429f-a8a3-9504789d1d37",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "WhatsApp",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"div[data-testid=\\\"chat-list\\\"], div[aria-label=\\\"Chat list\\\"], #pane-side, div[role=\\\"listitem\\\"], div[role=\\\"row\\\""
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:56:33Z",
+      "correlation_id": "59d15ab5-ea9a-4d84-a167-dd763415d35a",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Restart 1/3, backoff 2s"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:56:52Z",
+      "correlation_id": "1b9429b4-16e5-4233-9d34-a484026a061d",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-20.md",
+      "result": "failure",
+      "parameters": {
+        "details": "LinkedInPoster processed 0 posts for LINKEDIN_POST_2026-02-20.md — check session state or post content",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:57:37Z",
+      "correlation_id": "1b57e033-1bcd-4fd0-a591-bcb323e40f28",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "WhatsApp",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"div[data-testid=\\\"chat-list\\\"], div[aria-label=\\\"Chat list\\\"], #pane-side, div[role=\\\"listitem\\\"], div[role=\\\"row\\\""
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:57:37Z",
+      "correlation_id": "ddf54dd3-743b-40e9-bb2e-21dc7ac013c3",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Restart 2/3, backoff 4s"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:58:00Z",
+      "correlation_id": "77718029-666b-4ed6-a035-5d9b016432e4",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-20.md",
+      "result": "failure",
+      "parameters": {
+        "details": "LinkedInPoster processed 0 posts for LINKEDIN_POST_2026-02-20.md — check session state or post content",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:58:41Z",
+      "correlation_id": "63694aea-cf08-4aba-ba8a-14617d0e84bd",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Gmail",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:58:41Z",
+      "correlation_id": "eddd6054-e68d-4cb1-ab32-55b793ac8817",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "VaultAction",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:58:42Z",
+      "correlation_id": "3df684ff-ee8f-4cc8-b5dc-2075912763d5",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:58:42Z",
+      "correlation_id": "c3112345-a2a8-4442-8a6d-35f9e6d2a90a",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:58:42Z",
+      "correlation_id": "752f5910-f1a9-418a-840b-cf8d0bb14ef8",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:58:42Z",
+      "correlation_id": "cf8617ee-2e4e-4b5a-bbeb-e208020e23d4",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:58:42Z",
+      "correlation_id": "2848819b-30b6-4322-8bb9-bde8eb3043fb",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Twitter",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-30T20:58:42Z",
+      "correlation_id": "0baa981e-9eac-4422-a784-600185ade8f6",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_stop",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "Graceful shutdown",
+        "dev_mode": false
+      }
+    }
+  ]
+}

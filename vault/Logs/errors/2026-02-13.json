@@ -1,0 +1,14 @@
+{
+  "date": "2026-02-13",
+  "entries": [
+    {
+      "timestamp": "2026-02-13T23:17:30Z",
+      "correlation_id": "c344b789-69de-4cc0-8082-de096eae777a",
+      "actor": "linkedin_poster",
+      "action_type": "error",
+      "target": "LINKEDIN_POST_test_20260213.md",
+      "error": "post_failed",
+      "result": "failure"
+    }
+  ]
+}

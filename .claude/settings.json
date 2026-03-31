@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "onStop": [
+      {
+        "handler": {
+          "type": "command",
+          "script": "uv run python backend/ralph_wiggum/stop_hook.py"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "date": "2026-02-26",
+  "entries": [
+    {
+      "timestamp": "2026-02-26T17:53:37Z",
+      "correlation_id": "0f52a4f3-316b-4c41-9098-e17771b11c13",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T17:53:37Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_skipped",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Briefing not due (wrong day, early time, or already generated today)"
+    },
+    {
+      "timestamp": "2026-02-26T17:55:26Z",
+      "correlation_id": "4d9e0d0b-e5f1-43d8-86c6-d1dacdacc08c",
+      "actor": "linkedin_watcher",
+      "action_type": "linkedin_processed",
+      "target": "LINKEDIN_nimra-naz_20260226T175526.md",
+      "result": "success",
+      "parameters": {
+        "item_type": "message",
+        "sender": "Nimra Naz",
+        "priority": "medium",
+        "matched_keyword": "project",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T17:56:23Z",
+      "correlation_id": "b9c4634f-f6b5-4207-84dc-b38caa460ce9",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-21.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\PMLS\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T17:56:55Z",
+      "correlation_id": "1b6ae6bb-0e15-4b8a-8a72-3332f0d5a9f8",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-21.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\PMLS\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T17:57:27Z",
+      "correlation_id": "a7c388ec-20e7-4269-b98e-5918204fbb9e",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-21.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\PMLS\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T17:57:58Z",
+      "correlation_id": "ea5b4112-9058-4a47-b4d4-2f3b57153b50",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-21.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\PMLS\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T17:58:31Z",
+      "correlation_id": "9dc549c9-9b30-4b30-a1b3-57374df17260",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-21.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\PMLS\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T17:58:52Z",
+      "correlation_id": "5c68623e-550f-4cc9-92ba-23f72e6a0705",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Gmail",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-02-26T17:58:53Z",
+      "correlation_id": "cd71fbe5-dad4-430f-854d-0a0cf058030a",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-02-26T17:58:53Z",
+      "correlation_id": "14d7c573-7e0a-44c5-825b-20de6279dcc0",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-02-26T17:58:53Z",
+      "correlation_id": "f68cf749-7431-4316-9da1-000bfa574f99",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-02-26T17:58:53Z",
+      "correlation_id": "3ad84fe4-0b65-490c-9d21-cb4c6520af47",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-02-26T17:58:53Z",
+      "correlation_id": "20138d1f-2355-4e4e-ac77-8c122fa96be1",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Twitter",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-02-26T17:58:54Z",
+      "correlation_id": "9a421345-5585-49ee-a737-f2272c16efd8",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_stop",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "Graceful shutdown",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:02:06Z",
+      "correlation_id": "6344a5d0-d533-4000-80ad-01a1a79fecf3",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:02:06Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_skipped",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Briefing not due (wrong day, early time, or already generated today)"
+    },
+    {
+      "timestamp": "2026-02-26T18:02:15Z",
+      "correlation_id": "65b2a13a-88b0-4cf4-9d11-82f249b7e6f2",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-21.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\PMLS\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:02:50Z",
+      "correlation_id": "68f29e77-bd08-44a8-9e7a-e71ce2b3bb33",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-21.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\PMLS\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:03:22Z",
+      "correlation_id": "4cf4dda0-4c6e-43b6-93ba-f9f3e1a97d83",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-21.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\PMLS\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:03:55Z",
+      "correlation_id": "2df81527-fc9a-4f58-afe2-209fac7a167c",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-21.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\PMLS\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:04:28Z",
+      "correlation_id": "7869a6e0-0bf4-4743-990d-5a8500ae8686",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-21.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\PMLS\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:05:01Z",
+      "correlation_id": "72e38801-a6e3-4648-91c8-8b13ea7ab338",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-21.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\PMLS\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:05:11Z",
+      "correlation_id": "85cb428e-4136-4338-a176-bc500af94ca5",
+      "actor": "whatsapp_watcher",
+      "action_type": "whatsapp_processed",
+      "target": "WHATSAPP_firecoders-offical_20260226T180511.md",
+      "result": "success",
+      "parameters": {
+        "chat_name": "FireCoders🔥Offical",
+        "message_preview": "#ai #generativeai #giaic #python #automation #odoo #whatsappapi #zoyaai #agenticworkflows #techinnov",
+        "priority": "high",
+        "matched_keyword": "urgent",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:05:34Z",
+      "correlation_id": "dbb19c9d-7f37-4b12-8eff-f946fdb04cca",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-21.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\PMLS\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:06:06Z",
+      "correlation_id": "08c61c60-f617-4bc9-9754-2f462186f4b8",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-21.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\PMLS\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:06:39Z",
+      "correlation_id": "075b806a-1a38-4ddb-aa5f-784dd8fb862c",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-21.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\PMLS\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:06:41Z",
+      "correlation_id": "4dde70d5-b72c-4a81-8ac5-c9a9de5af42b",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-26.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\PMLS\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:06:50Z",
+      "correlation_id": "9879f1b4-4c5c-44d0-9521-edd9d95ab591",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Gmail",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:06:52Z",
+      "correlation_id": "1c0febe9-b060-41dc-b5c4-54e94fc05bcb",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:06:52Z",
+      "correlation_id": "f0d90b29-227e-4f8a-952b-fb37a73dea28",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:06:52Z",
+      "correlation_id": "7ee8e202-d4a5-4bba-bf97-14322f6d653d",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:06:52Z",
+      "correlation_id": "5f658f13-b5ac-4e34-9e47-daea38c72b7c",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:06:52Z",
+      "correlation_id": "6df7dd1c-ad10-4493-ab34-4acfdb092e9e",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Twitter",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-02-26T18:06:52Z",
+      "correlation_id": "2e915427-de67-4be8-b2f0-43abebbbe00a",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_stop",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "Graceful shutdown",
+        "dev_mode": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-02-25",
+  "entries": [
+    {
+      "timestamp": "2026-02-25T13:23:34Z",
+      "correlation_id": "b9ef6f18-cc3a-4067-adc9-bcc559283857",
+      "actor": "facebook_watcher",
+      "action_type": "error",
+      "target": "facebook",
+      "error": "messages_session_captcha",
+      "details": {
+        "consecutive_errors": 0,
+        "dev_mode": false
+      },
+      "result": "failure"
+    }
+  ]
+}

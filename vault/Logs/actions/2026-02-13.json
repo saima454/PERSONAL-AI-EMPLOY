@@ -1,0 +1,19 @@
+{
+  "date": "2026-02-13",
+  "entries": [
+    {
+      "timestamp": "2026-02-13T23:23:24Z",
+      "correlation_id": "ba9ce16d-5fad-4ade-b1c9-8852c6415d3b",
+      "actor": "linkedin_poster",
+      "action_type": "linkedin_post",
+      "target": "LINKEDIN_POST_test_20260213.md",
+      "result": "success",
+      "parameters": {
+        "content_length": 343,
+        "content_preview": "🚀 Excited to share that I'm building my own Personal AI Employee as part of a hackathon!\n\nUsing Clau",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    }
+  ]
+}

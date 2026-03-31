@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "_comment": "Rate limits for AI Employee external actions. All limits are maximums per time window.",
+
+  "email": {
+    "sends_per_hour": 10,
+    "sends_per_day": 50,
+    "recipients_per_email": 10,
+    "cooldown_after_error_seconds": 300
+  },
+
+  "payments": {
+    "transactions_per_hour": 3,
+    "transactions_per_day": 10,
+    "max_amount_auto_approve_usd": 0,
+    "max_amount_with_approval_usd": 1000,
+    "cooldown_after_error_seconds": 900
+  },
+
+  "social": {
+    "linkedin": {
+      "posts_per_day": 3,
+      "comments_per_hour": 10,
+      "connection_requests_per_day": 20
+    },
+    "twitter": {
+      "posts_per_day": 5,
+      "replies_per_hour": 15
+    }
+  },
+
+  "api_calls": {
+    "gmail_api_per_minute": 50,
+    "odoo_api_per_minute": 30,
+    "generic_per_minute": 60
+  },
+
+  "retry_policy": {
+    "max_retries": 3,
+    "initial_delay_seconds": 1,
+    "max_delay_seconds": 300,
+    "exponential_base": 2
+  },
+
+  "circuit_breaker": {
+    "failure_threshold": 5,
+    "recovery_timeout_seconds": 900,
+    "half_open_max_calls": 3
+  }
+}

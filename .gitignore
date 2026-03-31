@@ -1,0 +1,68 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Environment and secrets (NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+credentials.json
+token.json
+token.pickle
+*.pem
+*.key
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node.js (for MCP servers)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Playwright
+.playwright/
+playwright-report/
+test-results/
+
+# Social media session data (contains auth cookies — NEVER COMMIT)
+config/meta_session/
+config/linkedin_session/
+config/whatsapp_session/
+config/twitter_session/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs (keep structure, ignore contents)
+vault/Logs/**/*.md
+!vault/Logs/**/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# UV lock file (optional - some teams commit this)
+# uv.lock

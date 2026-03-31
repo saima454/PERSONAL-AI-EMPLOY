@@ -1,0 +1,144 @@
+{
+  "date": "2026-03-31",
+  "entries": [
+    {
+      "timestamp": "2026-03-31T21:18:19Z",
+      "correlation_id": "726321b2-b07f-4c95-8e54-1597de70cdeb",
+      "actor": "twitter_watcher",
+      "action_type": "error",
+      "target": "twitter",
+      "error": "session_login_required",
+      "details": {
+        "consecutive_errors": 0,
+        "dev_mode": false
+      },
+      "result": "failure"
+    },
+    {
+      "timestamp": "2026-03-31T21:18:31Z",
+      "correlation_id": "2fd98e8d-e390-467a-811f-fdbfcd36eb21",
+      "actor": "facebook_watcher",
+      "action_type": "error",
+      "target": "facebook",
+      "error": "messages_session_login_required",
+      "details": {
+        "consecutive_errors": 0,
+        "dev_mode": false
+      },
+      "result": "failure"
+    },
+    {
+      "timestamp": "2026-03-31T21:18:47Z",
+      "correlation_id": "202e5668-54f0-46be-825c-1ff7cbc78dc2",
+      "actor": "instagram_watcher",
+      "action_type": "error",
+      "target": "instagram",
+      "error": "dms_session_login_required",
+      "details": {
+        "consecutive_errors": 0,
+        "dev_mode": false
+      },
+      "result": "failure"
+    },
+    {
+      "timestamp": "2026-03-31T21:18:50Z",
+      "correlation_id": "d40943c9-2618-4f0b-8e6e-00a4cf0e13c3",
+      "actor": "twitter_watcher",
+      "action_type": "error",
+      "target": "twitter",
+      "error": "messages_session_login_required",
+      "details": {
+        "consecutive_errors": 0,
+        "dev_mode": false
+      },
+      "result": "failure"
+    },
+    {
+      "timestamp": "2026-03-31T21:32:55Z",
+      "correlation_id": "2ba9c5db-b365-4c3a-8031-54cadc314b26",
+      "actor": "twitter_watcher",
+      "action_type": "error",
+      "target": "twitter",
+      "error": "session_login_required",
+      "details": {
+        "consecutive_errors": 0,
+        "dev_mode": false
+      },
+      "result": "failure"
+    },
+    {
+      "timestamp": "2026-03-31T21:32:56Z",
+      "correlation_id": "0bb2aa42-7674-469b-b6b9-ca6a346c609b",
+      "actor": "facebook_watcher",
+      "action_type": "error",
+      "target": "facebook",
+      "error": "messages_session_login_required",
+      "details": {
+        "consecutive_errors": 0,
+        "dev_mode": false
+      },
+      "result": "failure"
+    },
+    {
+      "timestamp": "2026-03-31T21:33:14Z",
+      "correlation_id": "4a6f84a3-80ae-4211-844e-5594098676ed",
+      "actor": "instagram_watcher",
+      "action_type": "error",
+      "target": "instagram",
+      "error": "dms_session_login_required",
+      "details": {
+        "consecutive_errors": 0,
+        "dev_mode": false
+      },
+      "result": "failure"
+    },
+    {
+      "timestamp": "2026-03-31T21:33:23Z",
+      "correlation_id": "74f55a6d-ee25-456d-b6d1-e0f372b585ee",
+      "actor": "twitter_watcher",
+      "action_type": "error",
+      "target": "twitter",
+      "error": "messages_session_login_required",
+      "details": {
+        "consecutive_errors": 0,
+        "dev_mode": false
+      },
+      "result": "failure"
+    },
+    {
+      "timestamp": "2026-03-31T21:34:46Z",
+      "correlation_id": "daf60e4d-540e-4bda-8417-e484dae44f83",
+      "actor": "linkedin_poster",
+      "action_type": "error",
+      "target": "LINKEDIN_POST_2026-02-20.md",
+      "error": "post_failed",
+      "result": "failure"
+    },
+    {
+      "timestamp": "2026-03-31T21:35:10Z",
+      "correlation_id": "fd36186a-326b-479c-83ac-d8a14813ffeb",
+      "actor": "instagram_watcher",
+      "action_type": "error",
+      "target": "instagram",
+      "error": "dms_session_login_required",
+      "details": {
+        "consecutive_errors": 0,
+        "dev_mode": false
+      },
+      "result": "failure"
+    },
+    {
+      "timestamp": "2026-03-31T21:35:28Z",
+      "correlation_id": "b6bd32e0-b37d-4a37-b139-20096565f1fe",
+      "actor": "facebook_watcher",
+      "action_type": "error",
+      "target": "facebook",
+      "error": "messages_session_login_required",
+      "details": {
+        "consecutive_errors": 0,
+        "dev_mode": false
+      },
+      "result": "failure"
+    }
+  ]
+}

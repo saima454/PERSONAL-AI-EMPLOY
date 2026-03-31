@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "_comment": "Gmail watcher configuration. See skills/gmail-watcher/references/gmail_config_schema.md for full documentation.",
+
+  "query": "is:unread (is:important OR subject:(urgent OR invoice OR payment OR asap OR help))",
+
+  "priority_keywords": {
+    "high": ["urgent", "asap", "immediate", "critical", "payment", "invoice"],
+    "medium": ["important", "request", "review", "deadline"],
+    "low": []
+  },
+
+  "exclude_senders": [
+    "noreply@",
+    "newsletter@",
+    "notifications@",
+    "no-reply@",
+    "mailer-daemon@"
+  ],
+
+  "include_senders": [],
+
+  "max_results": 10,
+  "poll_interval_seconds": 120,
+  "processed_ids_retention_days": 30,
+  "mark_as_read": false,
+  "include_attachments": true,
+  "snippet_max_length": 1000
+}

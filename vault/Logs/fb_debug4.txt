@@ -1,0 +1,45 @@
+2026-02-28 22:26:45,930 [__main__] INFO: Running single Facebook check...
+2026-02-28 22:26:45,931 [asyncio] DEBUG: Using proactor: IocpProactor
+2026-02-28 22:26:48,932 [FacebookWatcher] INFO: Scanning Facebook messages...
+2026-02-28 22:26:48,933 [FacebookWatcher] DEBUG: Navigating to https://www.facebook.com/messages/ ...
+2026-02-28 22:27:06,279 [FacebookWatcher] DEBUG: Network idle not reached within 15s, continuing
+2026-02-28 22:27:26,303 [FacebookWatcher] INFO: Messages page — title: 'Messenger | Facebook'  url: https://www.facebook.com/messages/e2ee/t/30539345962376910/
+2026-02-28 22:27:26,351 [FacebookWatcher] DEBUG: Checking Facebook session state, URL: https://www.facebook.com/messages/e2ee/t/30539345962376910/
+2026-02-28 22:27:26,381 [FacebookWatcher] DEBUG: Facebook auth via selector: [aria-label="Facebook"]
+2026-02-28 22:27:29,473 [FacebookWatcher] DEBUG: Sidebar scroll 1/8 — threads visible: 16
+2026-02-28 22:27:31,007 [FacebookWatcher] DEBUG: Sidebar scroll 2/8 — threads visible: 16
+2026-02-28 22:27:31,007 [FacebookWatcher] DEBUG: Sidebar fully loaded after 2 scroll(s)
+2026-02-28 22:27:31,024 [FacebookWatcher] DEBUG: FB message probe 'div[aria-label*="Chats" i] [role="row"]': 16 matches
+2026-02-28 22:27:31,024 [FacebookWatcher] INFO: Found 16 Facebook message threads via 'div[aria-label*="Chats" i] [role="row"]'
+2026-02-28 22:27:31,042 [FacebookWatcher] DEBUG: Thread raw text: 'Active now | Nimra Naz | Unread message: | Please reply ne as soon as possible | \xa0 | · | 33m'
+2026-02-28 22:27:31,078 [FacebookWatcher] INFO: Matched FB message: sender='Nimra Naz'  unread=True  keyword='unread_message'
+2026-02-28 22:27:31,082 [FacebookWatcher] DEBUG: Thread raw text: 'Active now | Ashique Aziz | Unread message: | Hey  | \xa0 | · | 2w'
+2026-02-28 22:27:31,113 [FacebookWatcher] DEBUG: Skipping thread: sender='Ashique Aziz'  unread=True  recent=False  no keyword
+2026-02-28 22:27:31,117 [FacebookWatcher] DEBUG: Thread raw text: 'Arman Ahmed Cnc | Unread message: | Messages and calls are secured with end-to-end encryption. | \xa0 | · | 3w'
+2026-02-28 22:27:31,154 [FacebookWatcher] DEBUG: Skipping thread: sender='Arman Ahmed Cnc'  unread=True  recent=False  no keyword
+2026-02-28 22:27:31,159 [FacebookWatcher] DEBUG: Thread raw text: 'Muhammad Shariq Masood | Unread message: | Missed call | \xa0 | · | 4w'
+2026-02-28 22:27:31,197 [FacebookWatcher] DEBUG: Skipping thread: sender='Muhammad Shariq Masood'  unread=True  recent=False  no keyword
+2026-02-28 22:27:31,200 [FacebookWatcher] DEBUG: Thread raw text: 'English Mania | Unread message: | Messages and calls are secured with end-to-end encryption. | \xa0 | · | 6w'
+2026-02-28 22:27:31,232 [FacebookWatcher] DEBUG: Skipping thread: sender='English Mania'  unread=True  recent=False  no keyword
+2026-02-28 22:27:31,236 [FacebookWatcher] DEBUG: Thread raw text: 'Shoaib Ansari | Unread message: | Messages and calls are secured with end-to-end encryption. | \xa0 | · | 10w'
+2026-02-28 22:27:31,268 [FacebookWatcher] DEBUG: Skipping thread: sender='Shoaib Ansari'  unread=True  recent=False  no keyword
+2026-02-28 22:27:31,271 [FacebookWatcher] DEBUG: Thread raw text: 'Shazia Samma | Unread message: | Ok thanks | \xa0 | · | 27w'
+2026-02-28 22:27:31,305 [FacebookWatcher] DEBUG: Skipping thread: sender='Shazia Samma'  unread=True  recent=False  no keyword
+2026-02-28 22:27:31,311 [FacebookWatcher] DEBUG: Thread raw text: 'Active now | Ramesha Javed | You: Apko join karna he | \xa0 | · | 29w'
+2026-02-28 22:27:31,361 [FacebookWatcher] DEBUG: Skipping thread: sender='Ramesha Javed'  unread=False  recent=False  no keyword
+2026-02-28 22:27:31,369 [FacebookWatcher] DEBUG: Thread raw text: 'Areeba Waseem | Unread message: | Areeba sent an attachment. | \xa0 | · | 31w'
+2026-02-28 22:27:31,411 [FacebookWatcher] DEBUG: Skipping thread: sender='Areeba Waseem'  unread=True  recent=False  no keyword
+2026-02-28 22:27:31,415 [FacebookWatcher] DEBUG: Thread raw text: 'Muhammad Anas Attari | Unread message: | \u0627\u064e\u0644\u0633\u064e\u0644\u0627\u0645\u064f \u0639\u064e\u0644\u064e\u064a\u0652\u0643\u064f\u0645 \u0648\u064e\u0631\u064e\u062d\u0652\u0645\u064e\u0629\u064f \u0627\u064e\u0644\u0644\u0647\u0650 \u0648\u064e\u0628\u064e\u0631\u064e\u0643\u0627\u062a\u064f\u0647\u064f | \xa0 | · | 32w'
+2026-02-28 22:27:31,465 [FacebookWatcher] DEBUG: Skipping thread: sender='Muhammad Anas Attari'  unread=True  recent=False  no keyword
+2026-02-28 22:27:31,471 [FacebookWatcher] DEBUG: Thread raw text: 'Meta AI | Here are some MEP (Mechanical, Electrical, and Plumbing) system maintenance tips: *Mechanical System:* 1. Regularly inspect and clean air filters to improve efficiency and air quality. 2. Sche'
+2026-02-28 22:27:31,535 [FacebookWatcher] INFO: Matched FB message: sender='Meta AI'  unread=False  keyword='help'
+2026-02-28 22:27:31,540 [FacebookWatcher] DEBUG: Thread raw text: 'Jahanzeb Rehman | You: 03195945557 | \xa0 | · | 36w'
+2026-02-28 22:27:31,596 [FacebookWatcher] DEBUG: Skipping thread: sender='Jahanzeb Rehman'  unread=False  recent=False  no keyword
+2026-02-28 22:27:31,604 [FacebookWatcher] DEBUG: Thread raw text: 'Huma Fahad | https://www.facebook.com/share/1C449UodRs/ | \xa0 | · | 38w'
+2026-02-28 22:27:31,661 [FacebookWatcher] DEBUG: Skipping thread: sender='Huma Fahad'  unread=False  recent=False  no keyword
+2026-02-28 22:27:31,665 [FacebookWatcher] DEBUG: Thread raw text: 'Asad Shaikh | Unread message: | Asad sent an attachment. | \xa0 | · | 39w'
+2026-02-28 22:27:31,699 [FacebookWatcher] DEBUG: Skipping thread: sender='Asad Shaikh'  unread=True  recent=False  no keyword
+2026-02-28 22:27:31,699 [FacebookWatcher] INFO: Facebook: found 2 messages matching keywords
+2026-02-28 22:27:31,730 [FacebookWatcher] INFO: Created action file: FACEBOOK_nimra-naz_20260228T172731.md (priority: high)
+2026-02-28 22:27:31,758 [FacebookWatcher] INFO: Created action file: FACEBOOK_meta-ai_20260228T172731.md (priority: low)
+2026-02-28 22:27:31,758 [__main__] INFO: Check complete. Found 2 matching items.

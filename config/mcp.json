@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "_comment": "MCP (Model Context Protocol) server configuration for AI Employee",
+
+  "mcpServers": {
+    "email": {
+      "command": "python",
+      "args": ["-m", "backend.mcp_servers.email_server"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "capabilities": [
+        "send_email",
+        "draft_email",
+        "list_drafts",
+        "delete_draft"
+      ],
+      "enabled": false,
+      "_comment": "Enable when email MCP server is implemented"
+    },
+
+    "calendar": {
+      "command": "python",
+      "args": ["-m", "backend.mcp_servers.calendar_server"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "capabilities": [
+        "list_events",
+        "create_event",
+        "update_event",
+        "delete_event",
+        "respond_to_invite"
+      ],
+      "enabled": false,
+      "_comment": "Enable when calendar MCP server is implemented"
+    },
+
+    "vault": {
+      "command": "python",
+      "args": ["-m", "backend.mcp_servers.vault_server"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "capabilities": [
+        "read_file",
+        "write_file",
+        "move_file",
+        "list_folder",
+        "search_vault"
+      ],
+      "enabled": false,
+      "_comment": "Enable when vault MCP server is implemented"
+    },
+
+    "social": {
+      "command": "python",
+      "args": ["-m", "backend.mcp_servers.social_server"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "capabilities": [
+        "post_linkedin",
+        "post_twitter",
+        "schedule_post",
+        "get_notifications"
+      ],
+      "enabled": false,
+      "_comment": "Enable when social MCP server is implemented (Gold tier)"
+    }
+  },
+
+  "globalSettings": {
+    "timeout_ms": 30000,
+    "max_concurrent_servers": 4,
+    "log_level": "INFO",
+    "dev_mode": true
+  }
+}

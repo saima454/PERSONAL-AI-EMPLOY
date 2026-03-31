@@ -1,0 +1,392 @@
+{
+  "date": "2026-03-31",
+  "entries": [
+    {
+      "timestamp": "2026-03-31T21:17:26Z",
+      "correlation_id": "e73def57-5ae3-49c9-bb5e-1c8c5958044a",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:17:26Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_skipped",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Briefing not due (wrong day, early time, or already generated today)"
+    },
+    {
+      "timestamp": "2026-03-31T21:17:38Z",
+      "correlation_id": "f9d87d84-b47f-42dd-9d7a-3a901f3a90c4",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-patsy-wade-recently-posted-a-new-photo-20260331T211738.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19d453014473a8b1",
+        "subject": "📷 Patsy Wade recently posted a new photo",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:17:38Z",
+      "correlation_id": "736cf83b-3d9d-4f1a-8a08-28ca7b3719c8",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-hitesh-janu-rakhe-commented-on-a-reel-20260331T211738.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19d44f88e2831f04",
+        "subject": "💬 Hitesh Janu Rakhe commented on a reel",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:17:38Z",
+      "correlation_id": "d13418be-a2fe-4417-99ba-1eb1016d83de",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-you-have-117-notifications-about-sukhveer-and-othe-20260331T211738.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19d4251f1996fe01",
+        "subject": "You have 117 notifications about Sukhveer and others",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:18:05Z",
+      "correlation_id": "3d6c325f-22fa-4561-92c4-b4a6d9b0e847",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-20.md",
+      "result": "failure",
+      "parameters": {
+        "details": "LinkedInPoster processed 0 posts for LINKEDIN_POST_2026-02-20.md — check session state or post content",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:18:07Z",
+      "correlation_id": "56696199-47d2-4ad3-a05f-9a3395134c5e",
+      "actor": "action_executor",
+      "action_type": "create_invoice",
+      "target": "odoo",
+      "result": "success",
+      "parameters": {
+        "odoo_invoice_id": 1,
+        "odoo_invoice_ref": "INV/2026/00001",
+        "customer_id": 7,
+        "customer_name": "Taha",
+        "invoice_date": "2026-03-03",
+        "line_count": 1,
+        "estimated_total": 900.0,
+        "source_file": "ODOO_INVOICE_2026-02-22_E2E.md",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:18:07Z",
+      "correlation_id": "56696199-47d2-4ad3-a05f-9a3395134c5e",
+      "actor": "action_executor",
+      "action_type": "action_executed",
+      "target": "ODOO_INVOICE_2026-02-22_E2E.md",
+      "result": "success",
+      "parameters": {
+        "details": "type=odoo_invoice",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:18:49Z",
+      "correlation_id": "7df0f239-7ca2-4985-8bf7-4d4c63a7a123",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "WhatsApp",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"div[data-testid=\\\"chat-list\\\"], div[aria-label=\\\"Chat list\\\"], #pane-side, div[role=\\\"listitem\\\"], div[role=\\\"row\\\""
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:18:49Z",
+      "correlation_id": "5f001863-6b2c-4eb7-8822-c712807dc814",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Restart 1/3, backoff 2s"
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:18:53Z",
+      "correlation_id": "2339028a-3835-41b8-afd0-c4a03f17a77f",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-20.md",
+      "result": "failure",
+      "parameters": {
+        "details": "LinkedInPoster processed 0 posts for LINKEDIN_POST_2026-02-20.md — check session state or post content",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:19:47Z",
+      "correlation_id": "c18b8eeb-2656-469b-8bd9-b7e31f70d84f",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Gmail",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:19:47Z",
+      "correlation_id": "18011efa-2840-4641-aa5a-7c22795829a3",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "VaultAction",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:19:47Z",
+      "correlation_id": "52b755a9-6524-49f1-ad37-2e3ee64bd606",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:19:47Z",
+      "correlation_id": "27c9a2fb-0164-4999-87c5-b6d50a778630",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:19:47Z",
+      "correlation_id": "edea47c3-f469-4a17-8123-9504ae2cee66",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:19:47Z",
+      "correlation_id": "8c7ea939-43f5-4279-b0ed-e4b06da9b51d",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:19:47Z",
+      "correlation_id": "a2d9cde0-ae75-4582-b569-6dc248fc4e40",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Twitter",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:19:47Z",
+      "correlation_id": "c1b4e7a5-d347-4d44-98ab-4fc0f51c401b",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_stop",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "Graceful shutdown",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:32:25Z",
+      "correlation_id": "4ec2a124-e281-4b52-b3a3-5a36b71af78b",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:32:25Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_skipped",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Briefing not due (wrong day, early time, or already generated today)"
+    },
+    {
+      "timestamp": "2026-03-31T21:32:45Z",
+      "correlation_id": "c8edc870-0fff-4be6-bb6b-89b337702d87",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-20.md",
+      "result": "failure",
+      "parameters": {
+        "details": "LinkedInPoster processed 0 posts for LINKEDIN_POST_2026-02-20.md — check session state or post content",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:32:47Z",
+      "correlation_id": "e9855c6b-7639-4095-bcfb-691c1a904365",
+      "actor": "action_executor",
+      "action_type": "create_payment",
+      "target": "odoo",
+      "result": "success",
+      "parameters": {
+        "odoo_payment_id": 1,
+        "invoice_id": 1,
+        "amount": 900.0,
+        "payment_date": "2026-04-01",
+        "journal_id": 6,
+        "memo": "cash",
+        "source_file": "ODOO_PAYMENT_TEMPLATE.md",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:32:47Z",
+      "correlation_id": "e9855c6b-7639-4095-bcfb-691c1a904365",
+      "actor": "action_executor",
+      "action_type": "action_executed",
+      "target": "ODOO_PAYMENT_TEMPLATE.md",
+      "result": "success",
+      "parameters": {
+        "details": "type=odoo_payment",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:33:32Z",
+      "correlation_id": "c5142ba9-0caa-48ee-bc6b-5c422065e1d9",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "WhatsApp",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"div[data-testid=\\\"chat-list\\\"], div[aria-label=\\\"Chat list\\\"], #pane-side, div[role=\\\"listitem\\\"], div[role=\\\"row\\\""
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:33:32Z",
+      "correlation_id": "db4adad7-f3b0-402c-b497-acabc0ca43be",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Restart 1/3, backoff 2s"
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:33:35Z",
+      "correlation_id": "1c681829-74b8-4bee-af9f-ac1284c7352a",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-20.md",
+      "result": "failure",
+      "parameters": {
+        "details": "LinkedInPoster processed 0 posts for LINKEDIN_POST_2026-02-20.md — check session state or post content",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:34:37Z",
+      "correlation_id": "c67913f6-96c4-4868-a815-bec9e01dfa88",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "WhatsApp",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"div[data-testid=\\\"chat-list\\\"], div[aria-label=\\\"Chat list\\\"], #pane-side, div[role=\\\"listitem\\\"], div[role=\\\"row\\\""
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:34:37Z",
+      "correlation_id": "0429d0f0-dca0-46ef-8fe4-0b28fd104a12",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Restart 2/3, backoff 4s"
+      }
+    },
+    {
+      "timestamp": "2026-03-31T21:34:51Z",
+      "correlation_id": "e8131a54-5e02-4a0c-8690-b785732c33d1",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "LINKEDIN_POST_2026-02-20.md",
+      "result": "failure",
+      "parameters": {
+        "details": "LinkedInPoster processed 0 posts for LINKEDIN_POST_2026-02-20.md — check session state or post content",
+        "dev_mode": false
+      }
+    }
+  ]
+}

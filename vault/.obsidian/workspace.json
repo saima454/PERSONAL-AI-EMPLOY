@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "241efa033228700f",
+    "type": "split",
+    "children": [
+      {
+        "id": "41616750387f7dbb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "905f3b05f48ce2ce",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "acad5482ec2a3d21",
+    "type": "split",
+    "children": [
+      {
+        "id": "4199f535fe0c309e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "873d21030aa1860e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "548721e7ce972be3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c97bccd66347fb34",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f6e7e0306e5ba015",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbb46b89150a52a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e017cdb70b38d741",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "4743b73809a9ca8c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "2cd4f1b59e9f7cc8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c3582915bbaabc4a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "eedf7510995e1036",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "905f3b05f48ce2ce",
+  "lastOpenFiles": [
+    "Needs_Action/email-your-authentication-code-20260219T001004.md",
+    "Needs_Action/email-please-update-your-plus-payment-method-20260219T001003.md",
+    "Needs_Action/email-your-authentication-code-20260219T001003.md",
+    "Logs/actions/2026-02-19.json",
+    "Needs_Action/WHATSAPP_ai-spec-driven-online-hackathon_20260211T155700.md",
+    "Needs_Action/email-your-authentication-code-20260218T232144.md",
+    "Needs_Action/LINKEDIN_nimra-naz_20260218T232054.md",
+    "Needs_Action/email-your-authentication-code-20260218T231942.md",
+    "Needs_Action/email-action-required-asif-ali-invited-you-to-join-my-wo-20260218T231942.md",
+    "Needs_Action/email-verify-your-email-20260218T231942.md",
+    "Needs_Action/email-important-your-recent-login-attempt-to-link-failed-20260218T231942.md",
+    "Logs/actions/2026-02-18.json",
+    "Done/EMAIL_send_test_manual.md",
+    "Approved/EMAIL_send_test_manual.md",
+    "Pending_Approval/EMAIL_send_test_manual.md",
+    "Done/LINKEDIN_POST_test_20260213.md",
+    "Approved/LINKEDIN_POST_test_20260213.md",
+    "Needs_Action/task-test-vault-manager-20250204T170000.md",
+    "Needs_Action/LINKEDIN_nimra-naz_20260212T212904.md",
+    "Needs_Action/LINKEDIN_linkedin_20260212T205324.md",
+    "Briefings/bronze-tier-completion.md",
+    "Done/e2e-test-send-email.md",
+    "Business_Goals.md",
+    "Plans/plan-test-approval-workflow-20250204T170500.md",
+    "Logs/actions/2026-02-17.json"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-02-21",
+  "entries": [
+    {
+      "timestamp": "2026-02-21T13:53:18Z",
+      "correlation_id": "fa36b309-b8fa-401e-9ea5-4a5ec073ef68",
+      "actor": "twitter_poster",
+      "action_type": "twitter_post_published",
+      "target": "TWITTER_POST_E2E_test.md",
+      "result": "dev_mode",
+      "parameters": {
+        "dev_mode": true,
+        "dry_run": false,
+        "char_count": 60
+      }
+    }
+  ]
+}
